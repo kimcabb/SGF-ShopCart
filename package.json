@@ -1,0 +1,38 @@
+{
+  "name": "shopcart",
+  "version": "1.0.0",
+  "description": "This is the shopping cart add-on code for the SowGood Farms Community app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d .",
+    "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
+  },
+  "dependencies": {
+    "flux": "^2.0.0",
+    "react": "^0.12.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "browserify": "~6.2.0",
+    "envify": "~3.0.0",
+    "react": "^0.12.0",
+    "reactify": "^0.15",
+    "watchify": "~2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimcabb/SGF-ShopCart.git"
+  },
+  "author": "",
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimcabb/SGF-ShopCart/issues"
+  },
+  "homepage": "https://github.com/kimcabb/SGF-ShopCart#readme"
+}
