@@ -19,7 +19,7 @@ function getCartState(){
 }
 
 // define main controller view
-var FluxCartApp = React.createClass({
+var CartApp = React.createClass({
 
   // get initial state from stores
   getInitialState: function(){
@@ -41,7 +41,7 @@ var FluxCartApp = React.createClass({
   // render child components, passing state via props
   render: function(){
     return(
-      <div className="cart-app">
+      <div className='cart-app'>
         <Cart products={this.state.cartItems} count={this.state.cartCount} total={this.state.cartTotal} visible={this.state.cartVisible} />
         <Product product={this.state.product} cartitems={this.state.cartItems} selected={this.state.selectedProduct} />
       </div>
