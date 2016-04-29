@@ -36,13 +36,13 @@ module.exports = {
             sku: "1233",
             type: "beefsteak",
             price: 2.69,
-            inventory: 3
+            inventory: 12
           },
           {
             sku: "1234",
             type: "roma",
             price: 3.25,
-            inventory: 2,
+            inventory: 12,
           }
         ]
       }
