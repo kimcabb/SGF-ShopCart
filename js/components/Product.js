@@ -30,7 +30,7 @@ var Product = React.createClass({
       this.props.selected.inventory;
     return (
       <div className="product">
-        <img src={'img/' + this.props.product.image}/>
+        <img src={'../../img/' + this.props.product.image}/>
         <div className="product-detail">
           <h1 className="name">{this.props.product.name}</h1>
           <p className="description">{this.props.product.description}</p>
