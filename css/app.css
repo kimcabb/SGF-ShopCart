@@ -11,7 +11,7 @@ body
     padding: 0;
     background-color:#3C3530;
     /*background: #e67e22;*/
-    color: #e1eef6;
+    color: #2c3e50;
 }
 
 .banner {
@@ -35,8 +35,9 @@ body
    font-size: 30px;
  }
 
- div {
+ .nav {
     text-align: center;
+    color: #e1eef6;
  }
 
  a:link, a:visited {

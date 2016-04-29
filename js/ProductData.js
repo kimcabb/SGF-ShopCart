@@ -8,7 +8,7 @@ module.exports = {
       {
         id: "0001",
         name: "Cabbage",
-        img: "cabbage.jpg",
+        img: 'cabbage.jpg',
         description: "One head of cabbage, organic.",
         variants: [
           {
