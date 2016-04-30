@@ -8,7 +8,7 @@ module.exports = {
       {
         id: "0001",
         name: "Cabbage",
-        image: 'cabbage.jpg',
+        img_url: "http://i.imgur.com/EPxpGJ8.jpg?2",
         description: "One head of cabbage, organic.",
         variants: [
           {
@@ -29,7 +29,7 @@ module.exports = {
       {
         id: "0002",
         name: "Tomato",
-        img: "tomato.jpg",
+        img_url: "http://i.imgur.com/FtHdW3B.jpg?2",
         description: "One pound of tomatoes, organic.",
         variants: [
           {
